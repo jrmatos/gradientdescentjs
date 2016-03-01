@@ -1,4 +1,4 @@
-// Batch Gradient Descent for Linear Regression with two variables
+// Gradient Descent for Linear Regression with two variables
 
 // training set
 var ts = [
