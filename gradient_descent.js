@@ -37,8 +37,6 @@ var gradientDescent = (function() {
 		temp0 = theta0 - lr * dtheta0; 
 		temp1 = theta1 - lr * dtheta1; 
 
-		cost = ts.reduce(function(prev, curr){ return prev +  Math.pow(((theta1 * curr.x + theta0) -  curr.y),2); }, 0);
-
 		// if the differences between the old and the new values are too small
 		// then it converged
 		if(Math.abs(temp0 - theta0) < 1e-3 && Math.abs(temp1 - theta1) < 1e-3) {
@@ -47,7 +45,6 @@ var gradientDescent = (function() {
 			console.log('iterations: ' + iterations);
 			console.log('theta0: ' + theta0);
 			console.log('theta1: ' + theta1);
-			console.log('cost: ' + cost);
 			console.log('f(x) = ('+theta0.toFixed(2)+') + ('+ theta1.toFixed(2) + ')x');
 		}
 		else {
