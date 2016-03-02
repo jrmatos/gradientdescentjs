@@ -21,7 +21,6 @@ var gradientDescent = (function() {
 		temp1 = 0,
 		dtheta0 = 0,
 		dtheta1 = 0,
-		cost = 0,
 		iterations = 0
 		m = ts.length;
 
