@@ -1,4 +1,4 @@
-// Gradient Descent for Linear Regression with two variables
+// Gradient Descent for Linear Regression with one feature
 
 // training set
 var ts = [
