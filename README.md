@@ -1,4 +1,4 @@
-# Gradient descent algorithm in JavaScript
+# Gradient Descent algorithm in JavaScript
 
 Description coming soon
 
