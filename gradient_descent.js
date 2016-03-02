@@ -41,7 +41,7 @@ var gradientDescent = (function() {
 
 		// if the differences between the old and the new values are too small
 		// then it converged
-		if(Math.abs(temp0 - theta0) < 1e-10 && Math.abs(temp1 - theta1) < 1e-10) {
+		if(Math.abs(temp0 - theta0) < 1e-3 && Math.abs(temp1 - theta1) < 1e-3) {
 			converged = true;
 			console.log('converged!!!');
 			console.log('iterations: ' + iterations);
